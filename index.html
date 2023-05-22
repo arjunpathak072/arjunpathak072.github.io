@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Get Things Done</title>
+	<link rel="icon" href="logo.png" type="image/png">
+	<link rel="stylesheet" href="main.css" />
+	<script src="app.js"></script>
+
+	<!-- Links for icons used -->
+	<link href='https://unpkg.com/css.gg@2.0.0/icons/css/pen.css' rel='stylesheet'>
+	<link href='https://unpkg.com/css.gg@2.0.0/icons/css/trash-empty.css' rel='stylesheet'>
+	<link href='https://unpkg.com/css.gg@2.0.0/icons/css/check-o.css' rel='stylesheet'>
+	<link href='https://unpkg.com/css.gg@2.0.0/icons/css/add.css' rel='stylesheet'>
+	<link href='https://unpkg.com/css.gg@2.0.0/icons/css/undo.css' rel='stylesheet'>
+	<link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-left-o.css' rel='stylesheet'>
+
+	<!-- Links for font used -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+	<header>
+		<h1>Task List</h1>
+
+		<form id="new-task-form">
+			<input type="text" name="new-task-input" id="new-task-input" placeholder="Add a task to get things done" />
+			<button id="new-task-submit"><i class="gg-add"></i></button>
+		</form>
+	</header>
+
+	<main>
+		<section class="task-list">
+			<h2>Your Tasks</h2>
+
+			<div id="tasks">
+				<!-- <div class="task">
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="A new task"
+							readonly>
+					</div>
+					<div class="actions">
+						<button class="done"><i class="gg-check-o"></i></button>
+						<button class="delete"><i class="gg-trash-empty"></i></button>						
+					</div>
+				</div> -->
+
+			</div>
+		</section>
+	</main>
+</body>
+</html>
